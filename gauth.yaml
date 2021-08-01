@@ -1,0 +1,8 @@
+---
+- hosts: 
+    - gauth
+  vars_files:
+    - ./group_vars/gauth.yaml
+  roles:
+    - gauth
+...
